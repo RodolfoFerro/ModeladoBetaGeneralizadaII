@@ -55,7 +55,7 @@ Los parámetros obtenidos se guardaron en los archivos [fit_GB2_200.txt](https:/
 
 Este script valida el fit obtenido por la función `mlfit.gb2` de la librería `GB2`. Los métodos utilizados para validar son: (i) la gráfica de la _Función de Distribución Empírica (FDE)_ vs. la _Función de Distribución Teórica (FDT)_, (ii) la gráfica Cuantil-Cuantil (QQ) y (iii) la gráfica de densidad con los parámetros obtenidos sobre el histograma.
 
-Cabe mencionarse que los parámetros deben ser ingrsados manualmente, estos parámetros pueden encontrarse en los archivos fit para cada uno de los casos, dentro de la carpeta [fits](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/fits).
+Cabe mencionarse que los parámetros deben ser escritos manualmente en el script. Estos parámetros pueden encontrarse en los archivos fit para cada uno de los casos, dentro de la carpeta [fits](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/fits).
 
 Dichas gráficas pueden encontrarse dentro de la carpeta [plots](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/plots).
 
