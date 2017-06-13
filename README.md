@@ -1,6 +1,8 @@
 # Modelado de datos con distribución Beta Generalizada de Tipo II
 
-![Stochasticity](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/logo.png)
+<center>
+  <img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/logo.png" alt="Stochasticity" width="50%">
+</center>
 
 
 ##  Descripción general
@@ -30,9 +32,12 @@ Para correr los scripts en el orden adecuado y obtener los resultados deseados, 
 
 **1. [`simulations.R`]()**
 
-Este script crea las simulaciones con distribuciones _Beta Generalizada de Tipo II_ (𝑎=3.25, 𝑏=17000, 𝑝=0.8, 𝑞=0.35), _Lognormal_ (𝜇=11.04465, 𝜎=1.180168) y mezcla de _Lognormales_ (𝜇<sub>1</sub>=11.04465, 𝜎<sub>1</sub>=1.180168; 𝜇<sub>2</sub>=15, 𝜎<sub>2</sub>=0.7)).
+Este script crea 10000 simulaciones de variables aleatorias con distribuciones _Beta Generalizada de Tipo II_ (𝑎=3.25, 𝑏=17000, 𝑝=0.8, 𝑞=0.35), _Lognormal_ (𝜇=11.04465, 𝜎=1.180168) y mezcla de _Lognormales_ (𝜇<sub>1</sub>=11.04465, 𝜎<sub>1</sub>=1.180168; 𝜇<sub>2</sub>=15, 𝜎<sub>2</sub>=0.7). Las simulaciones se guardan respectivamente en los archivos [sim_GB2.csv](), [sim_LNorm.csv]() y [sim_LNormMix.csv]() dentro de la carpeta [csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/csv).
 
 
 **2. [`sampling.R`]()**
 
-Este script muestrea a partir de las simulaciones y de los datos reales, guardando las muestras en archivos _csv_ para posterior apertura por el script que
+Este script muestrea a partir de las simulaciones y de los datos reales, guardando las muestras en archivos _csv_ para posterior apertura por el script que hace un ajuste de parámetros de la distribución Beta Generalizada de Tipo II
+
+
+**3. [`sampling.R`]()**
