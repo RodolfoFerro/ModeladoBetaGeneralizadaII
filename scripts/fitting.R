@@ -10,9 +10,9 @@ rm(list=ls())
 
 
 #=============== Ajuste de parámetros: ===============#
-library(laeken)
 library(boot)
 library(MASS)
+library(laeken)
 
 # Filenames and paths:
 path_to_csv = "../csv/"
