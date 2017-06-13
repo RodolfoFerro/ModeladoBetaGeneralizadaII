@@ -28,10 +28,10 @@ file_name = paste("../csv/", file_name, sep="")
 
 # OBSERVACIÓN:
 # Definición manual de parámetros para fits (checar correspondiente archivo fit):
-a = 2.19
-b = 13415.19
-p = 1.45
-q = 0.53
+a = 2.22
+b = 12351.07
+p = 1.51
+q = 0.5
 
 
 #================== Validar modelo: ==================#
