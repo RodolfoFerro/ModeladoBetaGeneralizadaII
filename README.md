@@ -42,3 +42,15 @@ Las longitudes de los vectores de las submuestras son de 𝑛=200 y 𝑛=500. Lo
 
 
 **4. [`validation.R`]()**
+
+
+## Instrucciones
+
+Para correr los archivos, basta abrir los scripts de `R` anteriormente descritos en _RStudio_ y correslos en el siguiente orden:
+
+1. [`simulations.R`]()
+2. [`subsampling.R`]()
+3. [`fitting.R`]()
+4. [`validation.R`]()
+
+La idea general es simular primero el total de datos (1.) para posteriormente tomar submuestras de estas simulaciones, así como de los datos reales (2.) para posteriormente realizar el ajuste del modelo (3.) y validar dicho ajuste (4.).
