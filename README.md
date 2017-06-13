@@ -25,22 +25,22 @@ Dichas librerías pueden fácilmente ser instaladas con el gestor de paquetes de
 
 ## Contenido
 
-Para correr los scripts en el orden adecuado y obtener los resultados deseados, se anexa una descripción de cada script así como los pasos a seguir para correr el código.
+Para correr los scripts en el orden adecuado y obtener los resultados deseados, se anexa una descripción de cada script así como los pasos a seguir para correr el código. Todos los scripts se encuentran en la carpeta [scripts](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/scripts).
 
 
-**1. [`simulations.R`]()**
+**1. [`simulations.R`](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/scripts/simulations.R)**
 
-Este script crea 10000 simulaciones de variables aleatorias con distribuciones _Beta Generalizada de Tipo II_ (𝑎=3.25, 𝑏=17000, 𝑝=0.8, 𝑞=0.35), _Lognormal_ (𝜇=11.04465, 𝜎=1.180168) y mezcla de _Lognormales_ (𝜇<sub>1</sub>=11.04465, 𝜎<sub>1</sub>=1.180168; 𝜇<sub>2</sub>=15, 𝜎<sub>2</sub>=0.7). Las simulaciones se guardan respectivamente en los archivos [sim_GB2.csv](), [sim_LNorm.csv]() y [sim_LNormMix.csv]() dentro de la carpeta [csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/csv).
+Este script crea 10000 simulaciones de variables aleatorias con distribuciones _Beta Generalizada de Tipo II_ (𝑎=3.25, 𝑏=17000, 𝑝=0.8, 𝑞=0.35), _Lognormal_ (𝜇=11.04465, 𝜎=1.180168) y mezcla de _Lognormales_ (𝜇<sub>1</sub>=11.04465, 𝜎<sub>1</sub>=1.180168; 𝜇<sub>2</sub>=15, 𝜎<sub>2</sub>=0.7). Las simulaciones se guardan respectivamente en los archivos [sim_GB2.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/sim_GB2.csv), [sim_LNorm.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/sim_LNorm.csv) y [sim_LNormMix.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/sim_LNormMix.csv) dentro de la carpeta [csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/csv).
 
 
-**2. [`subsampling.R`]()**
+**2. [`subsampling.R`](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/scripts/subsampling.R)**
 
 Este script submuestrea de manera aleatoria a partir de las simulaciones y de los datos reales del INEGI ([mcs_ingresos_2014_concil_2010_csv.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/mcs_ingresos_2014_concil_2010_csv.csv)), guardando las muestras en archivos _csv_ para posterior apertura por el script que hace un ajuste de parámetros de la distribución Beta Generalizada de Tipo II.
 
-Las longitudes de los vectores de las submuestras son de 𝑛=200 y 𝑛=500. Los submuestreos se guardan en los archivos _csv_: [samp_GB2_200.csv](), [samp_GB2_500.csv](), [samp_LNorm_200.csv](), [samp_LNorm_500.csv](), [samp_LNormMix_200.csv]() y [samp_LNormMix_500.csv]() dentro de la carpeta [csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/csv).
+Las longitudes de los vectores de las submuestras son de 𝑛=200 y 𝑛=500. Los submuestreos se guardan en los archivos _csv_: [samp_GB2_200.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/samp_GB2_200.csv), [samp_GB2_500.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/samp_GB2_500.csv), [samp_LNorm_200.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/samp_LNorm_200.csv), [samp_LNorm_500.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/samp_LNorm_500.csv), [samp_LNormMix_200.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/samp_LNormMix_200.csv), [samp_LNormMix_500.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/samp_LNormMix_500.csv), [samp_RealData_200.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/samp_RealData_200.csv) y [samp_RealData_500.csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/csv/samp_RealData_500.csv) dentro de la carpeta [csv](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/csv).
 
 
-**3. [`fitting.R`]()**
+**3. [`fitting.R`](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/scripts/fitting.R)**
 
 
 **4. [`validation.R`]()**
@@ -55,9 +55,9 @@ Si se utilizará _RStudio_ para trabajar los scripts, se recmoienda que como pri
 
 Para trabajar en los scripts de `R` anteriormente descritos, basta abrirlos en _RStudio_ y correrlos en el siguiente orden:
 
-**Paso 1.** [`simulations.R`]()<br/>
-**Paso 2.** [`subsampling.R`]()<br/>
-**Paso 3.** [`fitting.R`]()<br/>
+**Paso 1.** [`simulations.R`](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/scripts/simulations.R)<br/>
+**Paso 2.** [`subsampling.R`](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/scripts/subsampling.R)<br/>
+**Paso 3.** [`fitting.R`](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/scripts/fitting.R)<br/>
 **Paso 4.** [`validation.R`]()<br/>
 
 La idea general es simular primero el total de datos (paso 1) para posteriormente tomar submuestras de estas simulaciones, así como de los datos reales (paso 2) para posteriormente realizar el ajuste del modelo (paso 3) y validar dicho ajuste (paso 4).
