@@ -47,7 +47,9 @@ Este script utiliza la función `mlfit.gb2` de la librería `GB2` para obtener l
 Los parámetros obtenidos se guardaron en los archivos [fit_GB2_200.txt](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/fits/fit_GB2_200.txt), [fit_GB2_500.txt](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/fits/fit_GB2_500.txt), [fit_LNorm_200.txt](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/fits/fit_LNormMix_200.txt), [fit_LNorm_500.txt](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/fits/fit_LNormMix_500.txt), [fit_LNormMix_200.txt](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/fits/fit_LNorm_200.txt), [fit_LNormMix_500.txt](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/fits/fit_LNorm_500.txt), [fit_RealData_200.txt](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/fits/fit_RealData_200.txt) y [fit_RealData_500.txt](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/fits/fit_RealData_500.txt). Dichos fits se encunetran dentro de la carpeta [fits](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/fits).
 
 
-**4. [`validation.R`]()**
+**4. [`validation.R`](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/scripts/validation.R)**
+
+Este script valida el fit obtenido por la función `mlfit.gb2` de la librería `GB2`. Los métodos utilizados para validar son: (i) la gráfica de la _Función de Distribución Empírica (FDE)_ vs. la _Función de Distribución Teórica (FDT)_, (ii) la gráfica Cuantil-Cuantil (QQ) y (iii) gráfica de densidad con los parámetros obtenidos sobre el histograma.
 
 
 ## Instrucciones
