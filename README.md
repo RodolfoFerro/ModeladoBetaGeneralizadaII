@@ -17,6 +17,8 @@ El presente repositorio contiene scripts en `R` para: (i) simular variables alea
 * [RStudio](https://www.rstudio.com) (recomendado)
 * Librería [`GB2`](https://cran.r-project.org/web/packages/GB2/index.html)
 * Librería [`distr`](https://cran.r-project.org/web/packages/distr/index.html)
+* Librería [`boot`](https://cran.r-project.org/web/packages/boot/index.html)
+* Librería [`MASS`](https://cran.r-project.org/web/packages/MASS/index.html)
 
 Dichas librerías pueden fácilmente ser instaladas con el gestor de paquetes de RStudio.
 
