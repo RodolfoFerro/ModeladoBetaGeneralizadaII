@@ -28,12 +28,9 @@ Dichas librerías pueden fácilmente ser instaladas con el gestor de paquetes de
 Para correr los scripts en el orden adecuado y obtener los resultados deseados, se anexa una descripción de cada script así como los pasos a seguir para correr el código.
 
 
-![](https://latex.codecogs.com/svg.latex?a=3.25,&space;b=17000,&space;p=0.8,&space;q=0.35)
-
 **1. [`simulations.R`]()**
 
-Este script crea las simulaciones con distribuciones _Beta Generalizada de Tipo II_ (𝒂=3.25, 𝒃=17000, 𝒑=0.8, 𝒒=0.35), _Lognormal_ (![](https://latex.codecogs.com/svg.latex?\mu=11.04465,&space;\sigma=1.180168)) y mezcla de _Lognormales_ (![](https://latex.codecogs.com/svg.latex?\mu_1=11.04465,&space;\sigma_1=1.180168); ![](https://latex.codecogs.com/svg.latex?\mu_1=15,&space;\sigma_2=0.7)).
-
+Este script crea las simulaciones con distribuciones _Beta Generalizada de Tipo II_ (𝑎=3.25, 𝑏=17000, 𝑝=0.8, 𝑞=0.35), _Lognormal_ (𝜇=11.04465, 𝜎=1.180168) y mezcla de _Lognormales_ (𝜇<sub>1</sub>=11.04465, 𝜎<sub>1</sub>=1.180168; 𝜇<sub>2</sub>=15, 𝜎<sub>2</sub>=0.7)).
 
 
 **2. [`sampling.R`]()**
