@@ -52,7 +52,7 @@ Los parámetros obtenidos se guardaron en los archivos [fit_GB2_200.txt](https:/
 
 ## Instrucciones
 
-Si se utilizará _RStudio_ para trabajar los scripts, se recmoienda que como primer acción se establezca el directorio de trabajo al de los archivos fuente, como se muestra a continuación:
+Si se utilizará _RStudio_ para trabajar los scripts, como primer acción debe establecerse el directorio de trabajo al de los archivos fuente, como se muestra a continuación:
 
 <img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/setwd.jpg" alt="Stochasticity" width="50%"><br/><br/>
 
