@@ -53,7 +53,7 @@ Los parámetros obtenidos se guardaron en los archivos [fit_GB2_200.txt](https:/
 
 **4. [`validation.R`](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/scripts/validation.R)**
 
-Este script valida el fit obtenido por la función `mlfit.gb2` de la librería `GB2`. Los métodos utilizados para validar son: (i) la gráfica de la _Función de Distribución Empírica (FDE)_ vs. la _Función de Distribución Teórica (FDT)_, (ii) la gráfica Cuantil-Cuantil (QQ) y (iii) gráfica de densidad con los parámetros obtenidos sobre el histograma.
+Este script valida el fit obtenido por la función `mlfit.gb2` de la librería `GB2`. Los métodos utilizados para validar son: (i) la gráfica de la _Función de Distribución Empírica (FDE)_ vs. la _Función de Distribución Teórica (FDT)_, (ii) la gráfica Cuantil-Cuantil (QQ) y (iii) la gráfica de densidad con los parámetros obtenidos sobre el histograma.
 
 Dichas gráficas pueden encontrarse dentro de la carpeta [plots](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/plots).
 
@@ -73,3 +73,13 @@ Para trabajar en los scripts de `R` anteriormente descritos, basta abrirlos en _
 **Paso 4.** [`validation.R`]()<br/>
 
 La idea general es simular primero el total de datos (paso 1) para posteriormente tomar submuestras de estas simulaciones, así como de los datos reales (paso 2) para posteriormente realizar el ajuste del modelo (paso 3) y validar dicho ajuste (paso 4).
+
+
+## Interpretación de resultados
+
+La manera correcta de interpretar los resultados tras correr los scripts es con las gráficas que validan el fit obtenido por la función `mlfit.gb2` de la librería `GB2`. De las gráficas obtenidas, (i) la gráfica de la _Función de Distribución Empírica (FDE)_ vs. la _Función de Distribución Teórica (FDT)_ debe mostrar que las curvas están casi encima, (ii) la gráfica Cuantil-Cuantil (QQ) debe mostrar que los valores deben estar en su mayoría sobre la recta identidad y (iii) la gráfica de densidad con los parámetros obtenidos sobre el histograma debe quedar por encima del histograma, ajustándose a su forma.
+
+Ejemplos de los resultados pueden apreciarse a continuación:
+<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/plots/FDE.png" alt="FDE vs FDT" width="50%"><br/>
+<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/plots/QQ.png" alt="QQ" width="50%"><br/>
+<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/plots/histogram_density.png" alt="DH" width="50%"><br/>
