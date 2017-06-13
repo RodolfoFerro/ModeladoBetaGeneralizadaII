@@ -55,6 +55,8 @@ Los parámetros obtenidos se guardaron en los archivos [fit_GB2_200.txt](https:/
 
 Este script valida el fit obtenido por la función `mlfit.gb2` de la librería `GB2`. Los métodos utilizados para validar son: (i) la gráfica de la _Función de Distribución Empírica (FDE)_ vs. la _Función de Distribución Teórica (FDT)_, (ii) la gráfica Cuantil-Cuantil (QQ) y (iii) la gráfica de densidad con los parámetros obtenidos sobre el histograma.
 
+Cabe mencionarse que los parámetros deben ser ingrsados manualmente, estos parámetros pueden encontrarse en los archivos fit para cada uno de los casos, dentro de la carpeta [fits](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/fits).
+
 Dichas gráficas pueden encontrarse dentro de la carpeta [plots](https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/tree/master/plots).
 
 
@@ -78,6 +80,8 @@ La idea general es simular primero el total de datos (paso 1) para posteriorment
 ## Interpretación de resultados
 
 La manera correcta de interpretar los resultados tras correr los scripts es con las gráficas que validan el fit obtenido por la función `mlfit.gb2` de la librería `GB2`. De las gráficas obtenidas, (i) la gráfica de la _Función de Distribución Empírica (FDE)_ vs. la _Función de Distribución Teórica (FDT)_ debe mostrar que las curvas están casi encima, (ii) la gráfica Cuantil-Cuantil (QQ) debe mostrar que los valores deben estar en su mayoría sobre la recta identidad y (iii) la gráfica de densidad con los parámetros obtenidos sobre el histograma debe quedar por encima del histograma, ajustándose a su forma.
+
+Si las condiciones anteriores se cumplen todas a la vez, podemos afirmar que la estimación de parámetros permite que el modelo se ajuste a los datos.
 
 Ejemplos de los resultados pueden apreciarse a continuación:
 <img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/plots/FDE.png" alt="FDE vs FDT" width="50%"><br/>
