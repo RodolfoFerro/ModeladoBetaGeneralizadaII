@@ -29,6 +29,6 @@ Para correr los scripts en el orden adecuado y obtener los resultados deseados, 
 
 ### 1. [`simulations.R`]()
 
-Este script crea las simulaciones con distribuciones _Beta Generalizada de Tipo II_ (![](https://latex.codecogs.com/svg.latex?a%3D3.25), \[b = 17000\], $p$ = 0.8, ![](https://latex.codecogs.com/gif.latex?q&space;=&space;0.35)), _Lognormal_ () y mezcla de _Lognormales_ ()
+Este script crea las simulaciones con distribuciones _Beta Generalizada de Tipo II_ (![](https://latex.codecogs.com/svg.latex?\boldsymbol{a=3.25},&space;\boldsymbol{b=17000},&space;\boldsymbol{p=0.8},&space;\boldsymbol{q=0.35})), _Lognormal_ (![](https://latex.codecogs.com/svg.latex?\boldsymbol{\mu=11.04465},&space;\boldsymbol{\sigma=1.180168})) y mezcla de _Lognormales_ (![](https://latex.codecogs.com/svg.latex?\boldsymbol{\mu_1=11.04465},&space;\boldsymbol{\sigma_1=1.180168}); ![](https://latex.codecogs.com/svg.latex?\boldsymbol{\mu_1=15},&space;\boldsymbol{\sigma_2=0.7}))
 
 ### 2. [`sampling.R`]()
