@@ -1,8 +1,5 @@
-# Modelado de datos con distribución Beta Generalizada de Tipo II
+# <img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/logo.png" alt="Stochasticity" width="20%"> Modelado de datos con distribución Beta Generalizada de Tipo II
 
-<center>
-  <img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/logo.png" alt="Stochasticity" width="50%">
-</center>
 
 
 ##  Descripción general
