@@ -1,0 +1,4 @@
+"type" "median" "mean" "ARPR" "RMPG" "QSR" "GINI" "likelihood" "a" "b" "p" "q"
+"1" "Emp. est" 85454 665454 36 46.75 168.47 0.82 NA NA NA NA NA
+"2" "ML full" 88473 NA 35.85 39.03 NA NA 13.596 1.35 22854.15 1.7 0.49
+"3" "ML prof" 89299 NA 36.04 38.47 NA NA 13.596 1.21 19266.34 2.13 0.56
