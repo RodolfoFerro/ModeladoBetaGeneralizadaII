@@ -48,9 +48,9 @@ Las longitudes de los vectores de las submuestras son de 𝑛=200 y 𝑛=500. Lo
 
 Basta abrir en _RStudio_ los scripts de `R` anteriormente descritos y correrlos en el siguiente orden:
 
-**Paso 1.** [`simulations.R`]()
-**Paso 2.** [`subsampling.R`]()
-**Paso 3.** [`fitting.R`]()
-**Paso 4.** [`validation.R`]()
+**Paso 1.** [`simulations.R`]()<br/>
+**Paso 2.** [`subsampling.R`]()<br/>
+**Paso 3.** [`fitting.R`]()<br/>
+**Paso 4.** [`validation.R`]()<br/>
 
 La idea general es simular primero el total de datos (paso 1) para posteriormente tomar submuestras de estas simulaciones, así como de los datos reales (paso 2) para posteriormente realizar el ajuste del modelo (paso 3) y validar dicho ajuste (paso 4).
