@@ -3,9 +3,9 @@
 # Modelado de datos con distribución Beta Generalizada de Tipo II
 
 
-El objetivo del proyecto es la simulación de variables aleatorias con algunas distribuciones para modelado de los datos con la distribución Beta Generalizada de Tipo II, así como el modelado (con la misma distribución) de ciertos datos reales obtenidos del INEGI, del [Módulo de Condiciones Socioeconómicas de la ENIGH (MCS-ENIGH) 2014](http://www.beta.inegi.org.mx/proyectos/enchogares/modulos/mcs/2014/). Dichos datos son los Ingresos y percepciones financieras y de capital de cada uno de los integrantes del hogar. (Un descriptor sobre estos datos puede ser encontrado en la página del [INEGI](http://internet.contenidos.inegi.org.mx/contenidos/Productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825070403.pdf).)
+El objetivo del proyecto es la simulación de variables aleatorias con algunas distribuciones para modelado de los datos con la distribución Beta Generalizada de Tipo II, así como el modelado (con la misma distribución) de ciertos datos reales obtenidos del INEGI, del [Módulo de Condiciones Socioeconómicas de la ENIGH (MCS-ENIGH) 2014](http://www.beta.inegi.org.mx/proyectos/enchogares/modulos/mcs/2014/). Dichos datos son los Ingresos y percepciones financieras y de capital de cada uno de los integrantes del hogar. (Un descriptor sobre estos datos puede ser encontrado en la [página del INEGI](http://internet.contenidos.inegi.org.mx/contenidos/Productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825070403.pdf).)
 
-El presente repositorio contiene scripts en `R` para: (i) simular variables aleatorias con distribuciones _Beta Generalizada de Tipo II_, _Lognormal_ y mezcla de _Lognormales_; (ii) modelar las simulaciones y datos reales del INEGI; y (iii) validar los ajustes de modelo.
+El presente repositorio contiene scripts en `R` para: (i) simular variables aleatorias con distribuciones _Beta Generalizada de Tipo II_, _Lognormal_ y mezcla de _Lognormales_; (ii) modelar las simulaciones y los datos reales del INEGI; y (iii) validar los ajustes de modelo para ver si el modelado de los datos con la distrubición _Beta Generalizada de Tipo II_ resulta adecuada.
 
 
 ##  Requerimientos
