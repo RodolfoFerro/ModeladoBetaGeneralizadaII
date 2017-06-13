@@ -1,9 +1,7 @@
-<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/logo.png" alt="Stochasticity" width="20%">
+<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/logo.png" alt="Stochasticity" width="25%">
 
 # Modelado de datos con distribución Beta Generalizada de Tipo II
 
-
-##  Descripción general
 
 El objetivo del proyecto es la simulación de variables aleatorias con algunas distribuciones para modelado de los datos con la distribución Beta Generalizada de Tipo II, así como la el modelado (con la misma distribución) de ciertos datos reales obtenidos del INEGI.
 
