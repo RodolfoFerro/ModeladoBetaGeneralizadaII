@@ -50,7 +50,7 @@ for (n in N){
     dev.off() # Fin de guardado de imagen
     
     # Guardamos como csv:
-    write.table(subsample, file = paste(path_to_csv, "sub_", file_name, "_", n, ".csv", sep=''), sep = ",")
+    write.table(subsample, file = paste(path_to_csv, "samp_", file_name, "_", n, ".csv", sep=''), sep = ",")
   }
   
   # For real data:
@@ -73,7 +73,7 @@ for (n in N){
   dev.off() # Fin de guardado de imagen
   
   # Guardamos como csv:
-  write.table(subsample, file = paste(path_to_csv, "sub_RealData", "_", n, ".csv", sep=''), sep = ",")
+  write.table(subsample, file = paste(path_to_csv, "samp_RealData", "_", n, ".csv", sep=''), sep = ",")
 }
 
 
