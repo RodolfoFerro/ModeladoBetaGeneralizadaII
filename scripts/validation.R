@@ -22,7 +22,7 @@ breaks = 50
 # "samp_RealData_500.csv"
 
 # Archivo en uso:
-file_name = "samp_GB2_200.csv"
+file_name = "samp_GB2_500.csv"
 file_name = paste("../csv/", file_name, sep="")
 
 
