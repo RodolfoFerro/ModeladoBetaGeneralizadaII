@@ -48,7 +48,7 @@ Las longitudes de los vectores de las submuestras son de 𝑛=200 y 𝑛=500. Lo
 
 Si se utilizará _RStudio_ para trabajar los scripts, se recmoienda que como primer acción se establezca el directorio de trabajo al de los archivos fuente, como se muestra a continuación:
 
-<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/setwd.jpg" alt="Stochasticity" width="50%"><br>
+<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/setwd.jpg" alt="Stochasticity" width="50%"><br/><br/>
 
 
 Para trabajar en los scripts de `R` anteriormente descritos, basta abrirlos en _RStudio_ y correrlos en el siguiente orden:
