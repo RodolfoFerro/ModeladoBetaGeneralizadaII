@@ -76,16 +76,3 @@ for (n in N){
   write.table(subsample, file = paste(path_to_csv, "samp_RealData", "_", n, ".csv", sep=''), sep = ",")
 }
 
-
-#=============== Ajuste de parámetros: ===============#
-# Ajuste de Máxima verosimiltud:
-print(file_name)
-maxlike_fit = mlfit.gb2(subsample)
-
-# Resultados:
-print(maxlike_fit[[1]])
-
-# Escribir resultados en archivo:
-write(file_name, file = "fit.txt", append = TRUE)
-write.table(maxlike_fit[[1]], file = "fit.txt", append = TRUE)
-write("\n\n", file = "fit.txt", append = TRUE)
