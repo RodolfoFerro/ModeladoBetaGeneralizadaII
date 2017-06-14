@@ -86,6 +86,6 @@ Si las condiciones anteriores se cumplen todas a la vez, podemos afirmar que la 
 **Ejemplo:**
 Resultados del modelado con la distribución _Beta Generalizada de Tipo II_ de 500 datos simulados con la distribución _Beta Generalizada de Tipo II_ pueden apreciarse a continuación.
 
-<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/plots/FDE.png" alt="FDE vs FDT" width="50%"><br/>
-<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/plots/QQ.png" alt="QQ" width="50%"><br/>
-<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/plots/histogram_density.png" alt="DH" width="50%"><br/>
+<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/plots/GB2_500_FDE.png" alt="FDE vs FDT" width="50%"><br/>
+<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/plots/GB2_500_QQ.png" alt="QQ" width="50%"><br/>
+<img src="https://github.com/RodolfoFerro/ModeladoBetaGeneralizadaII/blob/master/plots/GB2_500_histogram_density.png" alt="DH" width="50%"><br/>
