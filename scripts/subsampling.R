@@ -36,7 +36,7 @@ for (n in N){
     datos = read.csv(file=paste(path_to_csv, sim_prefix, file_name, ".csv", sep=''), header = TRUE, sep = ",")
     
     # Toma de submuestras con semilla aleatoria:
-    set.seed(123)
+    set.seed(321)
     subsample = datos[sample(1:nrow(datos), n), 1]
     #print(subsample)
     
@@ -59,7 +59,7 @@ for (n in N){
   datos = read.csv(file=paste(path_to_csv, real_data, sep=''), header = TRUE, sep = ",")
   
   # Toma de submuestras con semilla aleatoria:
-  set.seed(123)
+  set.seed(321)
   subsample = datos[sample(1:nrow(datos), n), 18]
   #print(subsample)
   

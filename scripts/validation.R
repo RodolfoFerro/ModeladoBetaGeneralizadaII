@@ -22,16 +22,16 @@ breaks = 50
 # "samp_RealData_500.csv"
 
 # Archivo en uso:
-file_name = "samp_GB2_500.csv"
+file_name = "samp_RealData_500.csv"
 file_name = paste("../csv/", file_name, sep="")
 
 
 # OBSERVACIÓN:
 # Definición manual de parámetros para fits (checar correspondiente archivo fit):
-a = 2.22
-b = 12351.07
-p = 1.51
-q = 0.5
+a = 0.35
+b = 2656.93
+p = 6.03
+q = 6.45
 
 
 #================== Validar modelo: ==================#
